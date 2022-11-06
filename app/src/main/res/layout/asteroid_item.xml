@@ -45,6 +45,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
+            android:contentDescription="@string/asteroid_item_hazard_icon"
             android:src="@drawable/ic_status_potentially_hazardous"
             app:statusIcon="@{asteroid.potentiallyHazardous}"
             tools:text="asteroid photo"
