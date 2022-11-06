@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/app_background">
-
         <FrameLayout
             android:id="@+id/activity_main_image_of_the_day_layout"
             android:layout_width="match_parent"
@@ -22,7 +21,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
-
             <ImageView
                 android:id="@+id/activity_main_image_of_the_day"
                 android:layout_width="match_parent"
@@ -31,7 +29,7 @@
                 android:scaleType="centerCrop"
                 android:contentDescription="@string/upper_image_of_the_day"
                 app:imageUrl="@{viewModel.pictureOfDay.url}"
-                app:srcCompat="@drawable/placeholder_picture_of_day"/>
+                app:srcCompat="@drawable/placeholder_picture_of_day" />
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"

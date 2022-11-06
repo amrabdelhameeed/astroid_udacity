@@ -24,7 +24,7 @@
             app:layout_constraintTop_toTopOf="parent" />
         <TextView
             android:id="@+id/asteroid_date"
-            tools:text="2022-12-22"
+            tools:text="1970-01-01"
 
             android:layout_width="0dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
             android:layout_marginTop="12dp"
             android:text="@{asteroid.closeApproachDate}"
             android:textColor="@color/text_grey"
-            android:textSize="16dp"
+            android:textSize="20sp"
             android:padding="10dp"
              />
         <ImageView
@@ -48,7 +48,6 @@
             android:contentDescription="@string/asteroid_item_hazard_icon"
             android:src="@drawable/ic_status_potentially_hazardous"
             app:statusIcon="@{asteroid.potentiallyHazardous}"
-            tools:text="asteroid photo"
-            />
+            tools:text="Asteroid Item Test"            />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
